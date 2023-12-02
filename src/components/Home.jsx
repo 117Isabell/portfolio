@@ -14,9 +14,11 @@ const Home = () => {
           I'm a Full Stack Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I’m a full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+          I am a proficient software engineer specializing in both front-end and
+          back-end development. My skill set includes HTML5, CSS3, JS, React JS
+          for crafting dynamic interfaces, alongside SQL, MongoDB, Docker, Git,
+          and Github for seamless data management, version control, and
+          containerization.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">

@@ -1,6 +1,6 @@
 import React from "react";
-import workImg from ".../assets/projects/workImg.jpeg";
-import realestate from ".../assets/projects/realestate.jpeg";
+import workImg from "../assets/projects/workImg.jpg";
+import realestate from "../assets/projects/realestate.jpg";
 // import { data } from "../data/data.js";
 
 // const Work = () => {
