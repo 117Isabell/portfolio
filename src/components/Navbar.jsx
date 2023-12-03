@@ -18,27 +18,27 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500} className="text-4xl">
+          <Link to="home" smooth={true} duration={500} className="link-item">
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500} className="text-4xl">
+          <Link to="about" smooth={true} duration={500} className="link-item">
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500} className="text-4xl">
+          <Link to="skills" smooth={true} duration={500} className="link-item">
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500} className="text-4xl">
+          <Link to="work" smooth={true} duration={500} className="link-item">
             Work
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500} className="text-4xl">
+          <Link to="contact" smooth={true} duration={500} className="link-item">
             Contact
           </Link>
         </li>
@@ -122,7 +122,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1PQtlbDRXPCCRawuCfR3drpkcx9TGgFra/view?usp=sharing"
+              href="https://drive.google.com/file/d/1nj1sstMqv4M0ZpcwJGiWhDp8iqSW4txT/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

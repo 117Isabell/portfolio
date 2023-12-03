@@ -1,5 +1,5 @@
 import React from "react";
-import workImg from "../assets/projects/workImg.jpg";
+import teachSite from "../assets/projects/teachSite.png";
 import realestate from "../assets/projects/realestate.jpg";
 // import { data } from "../data/data.js";
 
@@ -76,7 +76,7 @@ const Work = () => {
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
         {/* Grid item */}
         <div
-          style={{ backgroundImage: `url(${workImg})` }}
+          style={{ backgroundImage: `url(${teachSite})` }}
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
         >
           {/* Hover Effect */}
@@ -85,12 +85,20 @@ const Work = () => {
               React JS Application
             </span>
             <div className="pt-8 text-center">
-              <a href="/">
+              <a
+                href="https://chinesewithisabell.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Demo
                 </button>
               </a>
-              <a href="/">
+              <a
+                href="https://github.com/117Isabell/learnchinesewithisabell"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Code
                 </button>
