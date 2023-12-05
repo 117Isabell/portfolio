@@ -66,10 +66,10 @@ const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
       <div className="pb-8">
-        <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
+        <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-green-400">
           Work
         </p>
-        <p className="py-6">Check out some of my recent work</p>
+        <p className="py-6 text-3xl">Check out some of my recent work</p>
       </div>
 
       {/* Container */}
@@ -114,7 +114,7 @@ const Work = () => {
           {/* Hover Effect */}
           <div className="opacity=0 group-hover:opacity-100">
             <span className="text-2xl font-bold text-white tracking-wider">
-              React JS Application
+              HTML, CSS JS Application
             </span>
             <div className="pt-8 text-center">
               <a href="/">
