@@ -1,6 +1,6 @@
 import React from "react";
 import teachSite from "../assets/projects/teachSite.png";
-import realestate from "../assets/projects/realestate.jpg";
+import tictactoe from "../assets/projects/tictactoe.jpg";
 // import { data } from "../data/data.js";
 
 // const Work = () => {
@@ -108,7 +108,7 @@ const Work = () => {
         </div>
 
         <div
-          style={{ backgroundImage: `url(${realestate})` }}
+          style={{ backgroundImage: `url(${tictactoe})` }}
           className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
         >
           {/* Hover Effect */}
@@ -122,7 +122,11 @@ const Work = () => {
                   Demo
                 </button>
               </a>
-              <a href="/">
+              <a
+                href="https://github.com/117Isabell/tic-tac-toe"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                   Code
                 </button>

@@ -22,27 +22,57 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500} className="link-item">
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="link-item"
+            style={{ textDecorationColor: "#34D399" }}
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500} className="link-item">
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            className="link-item"
+            style={{ textDecorationColor: "#34D399" }}
+          >
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500} className="link-item">
+          <Link
+            to="skills"
+            smooth={true}
+            duration={500}
+            className="link-item"
+            style={{ textDecorationColor: "#34D399" }}
+          >
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500} className="link-item">
+          <Link
+            to="work"
+            smooth={true}
+            duration={500}
+            className="link-item"
+            style={{ textDecorationColor: "#34D399" }}
+          >
             Work
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500} className="link-item">
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="link-item"
+            style={{ textDecorationColor: "#34D399" }}
+          >
             Contact
           </Link>
         </li>
@@ -62,31 +92,61 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="home"
+            smooth={true}
+            duration={500}
+            style={{ textDecorationColor: "#34D399" }}
+          >
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="about"
+            smooth={true}
+            duration={500}
+            style={{ textDecorationColor: "#34D399" }}
+          >
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="skills"
+            smooth={true}
+            duration={500}
+            style={{ textDecorationColor: "#34D399" }}
+          >
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="work"
+            smooth={true}
+            duration={500}
+            style={{ textDecorationColor: "#34D399" }}
+          >
             Work
           </Link>
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="contact"
+            smooth={true}
+            duration={500}
+            style={{ textDecorationColor: "#34D399" }}
+          >
             Contact
           </Link>
         </li>
